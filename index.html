@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Ahmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<nav>
+    <ul lis class="nav-links">
+        <li><a href="#experience" style="text-decoration: none;color: black;">Experience</a></li>
+        <li><a href="#projects" style="text-decoration: none;color: black;">Projects</a></li>
+        <li><a href="#blog" style="text-decoration: none;color: black;">Blog</a></li>
+        <li><a href="https://www.linkedin.com/in/yusuf-ahmed-773697239/" target="_blank">
+            <img src="./assets/linkedin-logo.png" alt="linkedin-logo" width="35px" style="margin: -4px;"></a>
+        </li>
+        <li><a href="https://github.com/Yusuf-4hmed" target="_blank">
+            <img src="./assets/github-logo.png" alt="github-logo" width="35px" style="margin: -4px;"></a>
+        </li>
+    </ul>
+</nav>
+<body>
+    <section id="about">
+        <div class="me-container">
+            <img src="assets/profile-pic.JPG" alt="profile-pic" class="me-pic-container">
+            <article class="me-headers">
+                <h1 style="font-size: 40px;margin: 0;">Yusuf Ahmed</h1>
+                <p style="margin: 0;">Aspiring Software Engineer <br>based in London, UK</p>
+            </article>
+        </div>
+           </section>
+        <div class="me-text-container">
+        <p> Rather than pursuing a traditional university path, I have chosen to embark on an independent journey to become a <strong>Fullstack Software Engineer</strong>. Currently, I am focused on <strong>Frontend Development</strong>, where I am    building a strong foundation in frontend technologies. As I advance, I aim to deepen my knowledge and transition into full-stack development.<br><br>I’m passionate about working on projects, whether it’s tinkering with my physical tools to make something more efficient or bringing a software idea to life. I love the process of building something from the ground up, solving problems along the way, and continuously improving things. Whether I’m fixing an issue or adding new features, the challenge of making things better is what motivates me.<br><br>
+        My current skillset includes: <br><br><strong  class="language"  style="border-style: solid; border-width: 2px; padding: 3.5px;">Python</strong> <strong style="border-style: solid; border-width: 2px; padding: 3.5px;">HTML</strong> <strong style="border-style: solid; border-width: 2px; padding: 3.5px;">CSS</strong> <strong style="border-style: solid; border-width: 2px; padding: 3.5px;">JavaScript</strong> 
+        <br><br><span style="font-size: 12px;">(I am currently building on these skills and plan to expand my skill set in the future).</span>
+        </p>
+        </div>
+            <section id="experience">
+        <h1 style="font-size: 33px;text-align: center; "> Experience</h1>
+        <div class="experience-container" onclick="toggleDetails()">
+            <h1 >Junior  Frontend <br> Software Developer 
+                <span style="font-weight: 200;font-size: 20px; float: right;">not yet — future</span>
+            </h1>
+            <details id="experience-details" onclick="event.stopPropagation();">
+                <summary style="font-size: 17px;">Working retail right now, one day I will break into tech.</summary>
+                My current goal is to find an apprenticeship or start a junior role.
+            </details>
+        </div>
+        <div class="experience-container" onclick="toggleDetailsOne()">
+            <h1 >Junior Fullstack   <br> Software Developer 
+                <span style="font-weight: 200;font-size: 20px; float: right;">n/a — future</span>
+            </h1>
+            <details id="experience-details-one" onclick="event.stopPropagation();">
+                <summary style="font-size: 17px;">When the time comes we will see..</summary>
+                No content available at this time
+            </details>
+        </div>
+        <div class="experience-container" onclick="toggleDetailsTwo()">
+            <h1 >Senior Fullstack   <br> Software Developer 
+                <span style="font-weight: 200;font-size: 20px; float: right;">n/a — future</span>
+            </h1>
+            <details id="experience-details-two" onclick="event.stopPropagation();">
+                <summary style="font-size: 17px;">When the time comes we will see..</summary>
+                No content available at this time
+            </details>
+        </div>
+
+    </section>
+    <section id="projects">
+        <h1 style="text-align: center;font-size: 33px;">Projects</h1>
+        <div class="projects-grid-container">
+        <a href="https://google.com" target="_blank" >
+            <div class="projects" style="margin: 4px; margin-left: -1px;" >
+            <h1> 
+                Perfect Cat
+            </h1>
+            <p>
+                A multiple quiz algorithm that finds the perfect cat for the user based on their choices.
+                <br><br> Still in planning process..
+            </p>
+            </div>
+            </a>
+        <a href="https://youtube.com" target="_blank" >
+        <div class="projects" style="margin: 4px; margin-right: -1px;">
+            <h1>
+                Hifz Helper
+            </h1>
+            <p>
+                A web application that helps make memorising the holy Quran easier.
+                <br><br><br>Just an idea for now..
+            </p>
+        </div>
+        </a>
+        <div class="projects" style="margin: 4px; margin-left: -1px;">
+            <h1> 
+                Project 3
+            </h1>
+        </div>
+        <div class="projects" style="margin: 4px; margin-right: -1px;">
+            <h1>
+                Project 4
+            </h1>
+        </div>
+        </div>
+    </section>
+    <section id="blog"></section>
+    <footer style="text-align: center;">
+    Created by Yusuf Ahmed &#169 2024 <br> <span style="font-size: 10px;">This is my first ever site :)</span>
+    </footer>
+</body>
+
+</html>

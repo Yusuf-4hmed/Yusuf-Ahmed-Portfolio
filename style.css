@@ -1,0 +1,130 @@
+ body {
+   font-family: 'Poppins';
+ }
+
+ html {
+  scroll-behavior: smooth;
+ }
+ 
+ /* NAV  */
+
+ .nav-links {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   border-style: solid;
+   border-color: black;
+   margin-left: auto;
+   margin-right: auto;
+   width: 490px;
+   padding: 0;
+   padding-left: 40px;
+   padding-right: 40px;
+ }
+
+ ul {
+   list-style-type: none;
+ }
+
+ li:hover {
+  transform: translateY(-5px);
+  font-weight: bold;
+ }
+
+ li {
+   margin: 30px;
+   color: black;
+ }
+ 
+ 
+ /* ME CONTAINER */
+ 
+ .me-container {
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 490px;
+   pointer-events: none;
+ }
+
+.me-pic-container {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-position: 0 -15px;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: black;
+ }
+ .me-headers {
+   padding: 20px;
+   text-align: left;
+   align-self: center;
+ }
+
+/* ABOUT ME */
+
+ .me-text-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 490px;
+  pointer-events: none;
+ }
+
+/* EXPERIENCE */
+
+ .experience-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 490px;
+  
+}
+
+/* PROJECTS */
+
+.projects-grid-container {
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 572px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px;
+  border-style: none;
+  padding: 0;
+}
+
+.projects-grid-container:hover{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+
+div {
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+div:hover {
+  transform: translateY(-5px);
+  background-color: rgba(190, 190, 190, 0.295);
+  cursor: pointer;
+}
+ 
+button {
+  height: 200rem;
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+summary {
+  list-style-type: none;
+}
