@@ -20,6 +20,7 @@
    padding: 0;
    padding-left: 40px;
    padding-right: 40px;
+   display: flex;
  }
 
  ul {
@@ -34,6 +35,7 @@
  li {
    margin: 30px;
    color: black;
+   display: inline;
  }
  
  
@@ -41,8 +43,6 @@
  
  .me-container {
    display: flex;
-   justify-content: center;
-   padding: 40px;
    margin-left: auto;
    margin-right: auto;
    width: 490px;
@@ -58,11 +58,14 @@
     vertical-align: middle;
     border-style: solid;
     border-color: black;
+    position: absolute;
+  
  }
  .me-headers {
    padding: 20px;
    text-align: left;
    align-self: center;
+   margin-left: 160px;
  }
 
 /* ABOUT ME */
@@ -107,6 +110,7 @@ div {
   border-color: black;
   margin-bottom: 20px;
   padding: 40px;
+  
 }
 
 div:hover {
@@ -127,4 +131,89 @@ a{
 
 summary {
   list-style-type: none;
+}
+
+/* HEADINGS */
+
+.heading-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 490px;
+  pointer-events: none;
+  padding: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px){
+  div {
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flexbox;
+  }
+  .me-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    min
+    pointer-events: none;
+  }
+  .me-text-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    pointer-events: none;
+  }
+   .experience-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+  }
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85px;
+    width: auto;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line
+  }
+  li {
+    margin: auto;
+  }
+  .projects-grid-container {
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    border-style: none;
+    padding: 0;
+  }
+  
+  .heading-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    pointer-events: none;
+    padding: 0;
+  }
+}
+
+@media (min-width: 475px) {
+  
 }
