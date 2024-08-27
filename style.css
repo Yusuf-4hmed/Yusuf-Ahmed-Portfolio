@@ -59,8 +59,8 @@
     border-style: solid;
     border-color: black;
     position: absolute;
-  
  }
+
  .me-headers {
    padding: 20px;
    text-align: left;
@@ -68,6 +68,18 @@
    margin-left: 160px;
  }
 
+.text{
+  display: block;
+}
+
+.phone-text{
+  display: none;
+}
+
+ .me-header-h1 {
+  font-size: 40px;
+  margin: 0;
+ }
 /* ABOUT ME */
 
  .me-text-container {
@@ -104,6 +116,14 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
+.projects-l {
+  margin: 4px;
+  margin-left: -1px;
+}
+.projects-r {
+  margin: 4px;
+  margin-right: -1px;
+}
 
 div {
   border-style: solid;
@@ -159,8 +179,34 @@ summary {
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    min
     pointer-events: none;
+  }
+  .me-pic-container {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-position: 0 -15px;
+    vertical-align: center;
+    display: block;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-right: 0;
+  }
+ .me-headers {
+  padding: 10px;
+  padding-top: 20px;
+  text-align: left;
+  align-self: center;
+  margin-left: 110px;
+  margin-right: 2%;
+
+  }
+  .me-header-h1{
+    font-size: 20px;
   }
   .me-text-container {
     margin-left: auto;
@@ -192,16 +238,33 @@ summary {
   li {
     margin: auto;
   }
+
+  
   .projects-grid-container {
     margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: 100%;
+    grid-template-rows: 40%, 40%;
     border-style: none;
     padding: 0;
+  }
+
+  .projects {
+    margin-left: 3px;
+    margin-right: 40px;
+  }
+
+  .projects-l {
+    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .projects-r {
+    margin: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
   
   .heading-container {
@@ -216,4 +279,15 @@ summary {
 
 @media (min-width: 475px) {
   
+}
+
+@media only screen and (max-width:600px){
+  .text{
+    display: none;
+  }
+  
+  .phone-text{
+    display: block;
+    font-size: 13px;
+  }
 }
