@@ -57,14 +57,15 @@
 
 .me-pic-container {
     object-fit: cover;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     object-position: 0 -15px;
     vertical-align: middle;
     border-style: solid;
     border-color: black;
     position: absolute;
+    margin-top: 20px;
  }
 
  .me-headers {
