@@ -148,6 +148,22 @@
   top: 65px;
 }
 
+/* BLOG */
+
+.blog-container {
+  width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  pointer-events: none;
+}
+
+.blog-date-time {
+  border: none;
+  text-align: left;
+}
+
+
 div {
   border-style: solid;
   border-color: black;
@@ -163,9 +179,6 @@ div:hover {
   transition: .5s;
 }
  
-button {
-  height: 200rem;
-}
 
 a{
   display: flex;
