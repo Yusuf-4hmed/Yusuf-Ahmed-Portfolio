@@ -86,6 +86,10 @@
     margin-left: 450px;
  }
 
+.pin {
+  margin-bottom: -3px;
+}
+
  .me-headers {
    padding: 20px;
    text-align: left;
