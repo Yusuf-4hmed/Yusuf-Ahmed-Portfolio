@@ -198,6 +198,10 @@ border: 1px 1px 1px 1px;
   padding: 0;
 }
 
+.projects-grid-container a {
+  text-decoration: none;
+}
+
 .project-title {
   font-size: 17px;
 }
