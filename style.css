@@ -76,14 +76,14 @@
 
 .me-pic-container {
     object-fit: cover;
-    width: 130px;
-    height: 130px;
+    width: 145px;
+    height: 145px;
     border-radius: 7%;
-    object-position: 0 -15px;
+    object-position: 0 -18px;
     vertical-align: middle;
     position: absolute;
-    margin-top: 15px;
-    margin-left: 450px;
+    margin-top: 5px;
+    margin-left: 430px;
  }
 
 .pin {
