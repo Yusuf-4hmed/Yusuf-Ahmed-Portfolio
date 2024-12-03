@@ -28,34 +28,31 @@
    width: 724px;
    padding: 0;
    padding-right:0px;
-
+    cursor:default
  }
 
  ul {
    list-style-type: none;
  }
 
- .nav-section li:hover {
-  font-weight: bold;
-  transition: .5s;
- }
- .nav-section svg:hover {
-  font-weight: bold;
-  transition: .5s;
-  stroke-width: 3;
+ .nav-section li {
+  opacity: 50%;
  }
 
+ .nav-section li:hover {
+  opacity: 100%;
+  transition: .5s;
+ }
+
+
  .nav-section li {
-   margin: 30px;
+   margin: 20px;
    color: black;
    display: inline-block;
    flex-direction: row;
    transition: .5s;
  }
-  .nav-section svg{
-    display: inline-block;
-    transition: .5s;
-  }
+ 
  
  /* ME CONTAINER */
  
@@ -91,13 +88,14 @@
 }
 
  .me-headers {
-   padding: 20px;
+   padding: 5px 20px 0px 20px;
    text-align: left;
    align-self: center;
    margin-left: 0px;
  }
 
 .text{
+  opacity: 90%;
   display: block;
 }
 
@@ -108,6 +106,19 @@
  .me-header-h1 {
   font-size: 40px;
   margin: 0;
+ }
+
+ .me-headers svg{
+  padding-top: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  transition: .5s;
+}
+
+ .me-headers svg:hover {
+  font-weight: bold;
+  transition: .5s;
+  stroke-width: 3;
  }
 /* ABOUT ME */
 
@@ -126,10 +137,18 @@
   margin-bottom: 27px;
 }
 
+.time-job{
+  opacity: 65%;
+}
+
+.title-job {
+  opacity: 65%;
+}
+
 .job {
   border-left: solid 1px rgba(255, 255, 255, 0.212);
   margin-left: 2rem;
-  height: 350px;
+  height: 250px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -178,7 +197,7 @@ border: 1px 1px 1px 1px;
 .job-duties {
   list-style: disc;
   font-size: 12px;
-  width: 420px;
+  width: 473px;
   margin-top: 30px;
   margin-left: -20px;
 }
