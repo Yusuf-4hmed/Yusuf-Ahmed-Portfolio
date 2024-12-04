@@ -16,3 +16,13 @@ unavailableButton.addEventListener("click", ()=>{
     unavailableButton.textContent = "CAN U READ?"
 })
 
+// LIGHT  MODE TOGGLE
+
+const lightmodeToggle = document.getElementById('lightmode-toggle');
+
+const lightModeSwitch = () => {
+    document.body.classList.toggle('light');
+}
+
+
+
