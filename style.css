@@ -461,7 +461,6 @@ footer {
   /* ME CONTAINER QUERIES */
   
   .me-container {
-    width: auto;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -566,5 +565,64 @@ footer {
   .phone-text{
     display: block;
     font-size: 13px;
+  }
+  .experience-container {
+    padding: 40px 20px 20px 20px;
+  }
+  .nav-buttons li {
+    margin: 7px;
+  }
+  .me-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+   cursor: default;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  .me-headers {
+  display: block;
+  padding: 0px;
+  width: 60%;
+  }
+  .me-pic-container {
+    margin-top: 3px;
+    margin-left: 38%;
+
+  }
+
+  body.light {
+    font-family: 'Poppins';
+    background-color: white;
+    color: black;
+    svg {
+     color: black;
+    };
+    .nav-section li a {
+     color: black;
+   };
+   div{
+     border: solid 1px rgba(0, 0, 0, 0.212);
+   }
+   .me-container {
+    border: none;
+   }
+   .experience-container{
+    border: none;
+   }
+   .projects-grid-container{
+     border: none;
+   }
+   .job-details {
+     border: none;
+   }
+   .job {
+     border-left: solid 1px rgba(0, 0, 0, 0.212);
+   }
+   .job-second {
+     border-left: solid 1px rgba(0, 0, 0, 0.212);
+   }
   }
 }
