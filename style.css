@@ -8,17 +8,39 @@
    font-family: 'Poppins';
    background-color: white;
    color: black;
+   .time-machine-popup h2{
+    color: black;
+   }
    svg {
     color: black;
    };
+   .me-headers svg {
+    opacity: 70%;
+   };
+   .me-headers svg:hover {
+    opacity: 100%;
+    
+   };
    .nav-section li a {
     color: black;
+    opacity: 100%;
   };
   div{
     border: solid 1px rgba(0, 0, 0, 0.212);
   }
+  .dot{
+    background-color: #51ff00;
+  }
   .projects-grid-container{
     border: none;
+  }
+  .project-link {
+    color: white;
+    background-color: black;
+
+  }
+  .project-link svg{
+    stroke: white;
   }
   .job-details {
     border: none;
@@ -58,7 +80,7 @@
  }
 
  .nav-section li {
-  opacity: 50%;
+  opacity: 60%;
  }
 
  .nav-section li:hover {
@@ -68,7 +90,7 @@
 
 
  .nav-section li {
-   margin: 20px;
+   margin: 20px 0px 20px 20px;
    color: black;
    display: inline-block;
    flex-direction: row;
@@ -81,13 +103,23 @@
   
 }
 
- .nav-buttons li {
+.nav-buttons li:nth-child(1) {
+   margin: 0px;
+   color: black;
+   display: inline-block;
+   flex-direction: row;
+   transition: .5s;
+ }
+ 
+ .nav-buttons li:nth-child(2) {
    margin: 20px;
    color: black;
    display: inline-block;
    flex-direction: row;
    transition: .5s;
  }
+
+ 
 
  .light-mode-toggle {
   background-color: transparent;
@@ -103,11 +135,67 @@
 
  .light-mode-toggle:hover {
   background-color: rgba(75, 75, 75, 0.486);
-  border: none
+  border: none;
+  cursor: pointer;
  }
  
+ .time-machine {
+  background-color: transparent;
+  height: 33px;
+  width: 33px;
+  border-radius: 11%;
+  border: none;
+ }
+
+ .time-machine svg {
+  color: white;
+ }
  
- 
+ .time-machine:hover {
+  background-color: rgba(75, 75, 75, 0.486);
+  border: none;
+  cursor: pointer;
+ }
+
+ /* TIME MACHINE */
+
+ .time-machine-popup{
+  opacity: 0;
+  position: absolute;
+  top: 70px;
+  left: 75%;
+  width: 160px;
+  z-index: 12;
+  background-color: transparent;
+  backdrop-filter: blur(12px);
+  transition: 0.5s;
+  padding: 5px;
+ }
+
+ .time-machine-popup.active{
+  opacity: 1;
+  transition: 0.5s;
+ }
+
+ .time-machine-popup h2{
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  
+ }
+
+ .warp {
+  border-radius: 7px;
+  border: none;
+  opacity: 80%;
+  transition: .5s;
+ }
+
+ .warp:hover{
+  cursor: pointer;
+  opacity: 100%;
+  transition: .5s;
+ }
  /* ME CONTAINER */
  
  .me-container {
@@ -163,7 +251,7 @@
  }
 
  .me-headers svg{
-  padding-top: 5px;
+  padding-top: 10px;
   margin-right: 10px;
   display: inline-block;
   color: white;
@@ -345,6 +433,7 @@ $to-color: limegreen;
 
 .projects {
   width: 248px;
+  margin-bottom: 7px;
 }
 
 .projects-outer{
@@ -391,23 +480,11 @@ $to-color: limegreen;
 
 /* BLOG */
 
-.blog-container {
-  width: 490px;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  pointer-events: none;
-}
-
-.blog-date-time {
-  border: none;
-  text-align: left;
-}
 
 div {
   border: solid 1px rgba(255, 255, 255, 0.212);
   border-radius: 7px;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   padding: 40px;
   width: 600px;
 }
@@ -433,6 +510,17 @@ summary {
 footer {
   font-size: 12px;
   opacity: 75%;
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.estsite {
+  float: left;
+}
+
+.myname {
+  float: right;
 }
 
 /* MEDIA QUERIES */
@@ -458,6 +546,23 @@ footer {
     padding: 10px;
   }
   
+  .nav-buttons li:nth-child(2) {
+    margin: 7px;
+    
+  }
+
+  .time-machine-popup{
+    opacity: 0;
+    position: absolute;
+    top: 70px;
+    left: 45%;
+    width: 160px;
+    z-index: 12;
+    background-color: transparent;
+    backdrop-filter: blur(12px);
+    transition: 0.5s;
+    padding: 5px;
+   }
   /* ME CONTAINER QUERIES */
   
   .me-container {
@@ -509,9 +614,7 @@ footer {
   /* EXPERIENCE */
 
    .experience-container {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px;
+    margin: none;
     width: auto;
     height: auto;
   }
