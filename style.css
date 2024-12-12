@@ -508,20 +508,24 @@ summary {
 }
 
 footer {
+  display: flex;
   font-size: 12px;
   opacity: 75%;
-  width: auto;
+  
   margin-left: auto;
   margin-right: auto;
 }
 
-.estsite {
-  float: left;
+.estsite{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .myname {
   float: right;
 }
+
+
 
 /* MEDIA QUERIES */
 
