@@ -11,6 +11,7 @@
 This project was the first thing I ever created. I have alot of big plans to showcase my skills via lots of creative interactive elements 
 
 Some things I am planning to add:
+- [x] Site style revamp
 - [ ] Time Travel Machine feature needs to be finished
 - [ ] Add a map to show my general location 
 - [ ] Add a few little details (Easter Eggs)
