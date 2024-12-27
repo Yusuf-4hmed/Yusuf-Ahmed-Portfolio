@@ -64,15 +64,19 @@
  .nav-links {
    display: flex;
    justify-content: space-between;
-   position: relative;
+   position: fixed;
    border-style: none;
-   margin-left: auto;
    margin-right: auto;
+   margin-left: auto;
+   left: 0;
+   right: 0;
    width: 724px;
    padding: 0;
    padding-right:0px;
-  cursor:default;
-  
+   cursor: default;
+   margin-top: -73px;
+   backdrop-filter: blur(12px);
+   z-index: 1;
  }
 
  ul {
@@ -166,11 +170,12 @@
   left: 75%;
   width: 160px;
   z-index: 12;
-  background-color: transparent;
+  background-color: hsl(246, 100%, 4%);
   backdrop-filter: blur(12px);
   transition: 0.5s;
   padding: 5px;
  }
+ 
 
  .time-machine-popup.active{
   opacity: 1;
@@ -196,6 +201,12 @@
   opacity: 100%;
   transition: .5s;
  }
+ 
+/* SECTION: ABOUT */
+
+#about{
+  margin-top: 73px;
+}
  /* ME CONTAINER */
  
  .me-container {
@@ -270,6 +281,7 @@
   margin-right: auto;
   pointer-events: none;
  }
+
 
 /* EXPERIENCE */
 
@@ -541,15 +553,21 @@ footer {
   .nav-section li {
    margin: 7px;
   }
-
+    
   .nav-links {
-    position: relative;
-    border-style: none;
-    height: 85px;
-    width: auto;
-    padding: 10px;
-  }
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   border-style: none;
+   margin-left: auto;
+   margin-right: auto;
+   height: 85px;
+   width: auto;
+   padding: 10px;
+   padding-right:0px;
+   cursor:default;
   
+ }
   .nav-buttons li:nth-child(2) {
     margin: 7px;
     
@@ -567,6 +585,10 @@ footer {
     transition: 0.5s;
     padding: 5px;
    }
+
+   #about{
+    margin-top: -100px;
+  }
   /* ME CONTAINER QUERIES */
   
   .me-container {
@@ -675,6 +697,33 @@ footer {
   }
   .experience-container {
     padding: 40px 20px 20px 20px;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    border-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 73px;
+    padding: 0;
+    padding-right:0px;
+    cursor: default;
+    margin-top: -73px;
+    backdrop-filter: blur(12px);
+    z-index: 1;
+  }
+  .nav-section{
+    margin: 10px;
+  }
+  .nav-buttons{
+    margin: 10px;
+  }
+  #about{
+    margin-top: 73px;
   }
   .nav-buttons li {
     margin: 7px;
