@@ -49,7 +49,7 @@ const saveLightMode = () => {
 }
 
 const showLightMode = () => {
-    if(!saveLightMode()){
+    if(localStorage.getItem("lightmode") === null){
         lightmodeToggle.innerHTML = moonSvg;
     } else {
     document.body.className = localStorage.getItem("lightmode");
