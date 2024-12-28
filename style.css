@@ -130,7 +130,8 @@
   height: 33px;
   width: 33px;
   border-radius: 11%;
-  border: none
+  border: none;
+  transition: .5s;
  }
 
  .light-mode-toggle svg {
@@ -141,6 +142,7 @@
   background-color: rgba(75, 75, 75, 0.486);
   border: none;
   cursor: pointer;
+  transition: .5s;
  }
  
  .time-machine {
@@ -149,6 +151,7 @@
   width: 33px;
   border-radius: 11%;
   border: none;
+  transition: .5s;
  }
 
  .time-machine svg {
@@ -159,6 +162,7 @@
   background-color: rgba(75, 75, 75, 0.486);
   border: none;
   cursor: pointer;
+  transition: .5s;
  }
 
  /* TIME MACHINE */
