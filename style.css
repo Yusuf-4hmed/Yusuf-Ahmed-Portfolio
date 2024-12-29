@@ -1,3 +1,7 @@
+ *{
+  font-family: 'Poppins';
+ }
+ 
  body {
    font-family: 'Poppins';
    background-color: hsl(246, 100%, 4%);
@@ -169,12 +173,12 @@
 
  .time-machine-popup{
   opacity: 0;
-  position: absolute;
-  top: 70px;
+  position: fixed;
+  top: 55px;
   left: 75%;
   width: 160px;
-  z-index: 12;
-  background-color: hsl(246, 100%, 4%);
+  z-index: 2;
+  background-color: hsl(246, 100%, 4%, 0.5);
   backdrop-filter: blur(12px);
   transition: 0.5s;
   padding: 5px;
@@ -494,8 +498,6 @@ $to-color: limegreen;
   width: 17px;
 }
 
-/* BLOG */
-
 
 div {
   border: solid 1px rgba(255, 255, 255, 0.212);
@@ -686,6 +688,28 @@ footer {
   }
 }
 
+/* BLOG */
+#blog {
+  margin-top: 73px;
+}
+
+#blog h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.blog-container {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.blog-post{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 @media (min-width: 475px) {
   
 }
@@ -726,6 +750,19 @@ footer {
   .nav-buttons{
     margin: 10px;
   }
+  .time-machine-popup{
+    opacity: 0;
+    position: fixed;
+    top: 55px;
+    left: 50%;
+    width: 160px;
+    z-index: 2;
+    background-color: hsl(246, 100%, 4%, 0.5);
+    border: solid 1px rgba(255, 255, 255, 0.212);
+    backdrop-filter: blur(12px);
+    transition: 0.5s;
+    padding: 5px;
+   }
   #about{
     margin-top: 73px;
   }
