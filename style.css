@@ -866,7 +866,9 @@ footer {
     margin-left: 38%;
 
   }
-
+  .footer{
+    width: auto;
+  }
   body.light {
     font-family: 'Poppins';
     background-color: white;
