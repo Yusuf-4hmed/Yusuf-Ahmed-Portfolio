@@ -12,6 +12,7 @@ This project was the first thing I ever created. I have alot of big plans to sho
 
 Some things I am planning to add:
 - [x] Site style revamp
+- [x] Blog section
 - [ ] Time Travel Machine feature needs to be finished
 - [ ] Add a map to show my general location 
 - [ ] Add a few little details (Easter Eggs)
