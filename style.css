@@ -342,11 +342,12 @@
   display: inline-block;
   color: white;
   opacity: 60%;
+  transition: .5s;
 }
 
  .me-headers svg:hover {
   opacity: 100%;
-  
+  transition: .5s;
  }
 
 /* ABOUT ME */
@@ -624,6 +625,12 @@ footer {
 .footer svg{
   color: white;
   opacity: 60%;
+  transition: .5s;
+}
+.footer svg:hover{
+  color: white;
+  opacity: 100%;
+  transition: .5s;
 }
 
 
@@ -848,7 +855,36 @@ footer {
 /* BLOG POST PAGE */
 
 
-
+.blog{
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.blog-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-date{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blog a{
+  text-decoration: none;
+  color: #3ba3ff;
+  
+}
+.blog ul{
+  list-style-type: disc;
+  margin-left: 20px;
+}.blog hr{
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 @media (min-width: 475px) {
   
 }
@@ -931,6 +967,7 @@ footer {
   .footer{
     width: auto;
   }
+
   body.light {
     font-family: 'Poppins';
     background-color: white;
@@ -993,5 +1030,12 @@ footer {
 .blog-post .blog-date {
   margin-left: 0;
   margin-top: 10px;
+}
+.blog{
+  width: auto;
+}
+.blog h1{
+  font-size: 30px !important;
+  font-weight: bolder;
 }
 }
