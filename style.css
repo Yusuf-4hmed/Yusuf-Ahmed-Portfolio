@@ -192,12 +192,14 @@
   backdrop-filter: blur(12px);
   transition: 0.5s;
   padding: 5px;
+  display: none;
  }
  
 
  .time-machine-popup.active{
   opacity: 1;
   transition: 0.5s;
+  display: block;
  }
 
  .time-machine-popup h2{
