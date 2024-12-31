@@ -13,7 +13,7 @@
    background-color: white;
    color: black;
    .time-machine-popup {
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.5);
    }
    .time-machine-popup h2{
     color: black;
