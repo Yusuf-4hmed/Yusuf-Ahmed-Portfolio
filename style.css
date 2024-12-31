@@ -815,6 +815,10 @@ footer {
   cursor: pointer;
 }
 
+.blog-post:hover{
+  background-color: hsla(0, 0%, 32%, 0.3) ;
+  transition: .2s;
+}
 .blog-post div{
   border: none !important;
   padding: 0;
