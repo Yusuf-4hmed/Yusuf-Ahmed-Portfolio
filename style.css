@@ -822,6 +822,7 @@ footer {
   height: 34px;
   display: flex;
   cursor: pointer;
+  transition: .2s;
 }
 
 .blog-post:hover{
