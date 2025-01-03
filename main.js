@@ -64,7 +64,7 @@ const showLightMode = () => {
     } else {
     document.body.className = localStorage.getItem("lightmode");
     lightmodeToggle.innerHTML = localStorage.getItem("light-svg");
-    // html.style.background = localStorage.getItem("background");
+    html.style.background = localStorage.getItem("background");
     }
 };
 
