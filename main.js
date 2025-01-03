@@ -55,6 +55,7 @@ document.addEventListener("click", () => {
 const saveLightMode = () => {
     localStorage.setItem("lightmode", document.body.className);
     localStorage.setItem("light-svg", lightmodeToggle.innerHTML);
+    localStorage.setItem("background", html.style.background);
 }
 
 const showLightMode = () => {
@@ -63,6 +64,7 @@ const showLightMode = () => {
     } else {
     document.body.className = localStorage.getItem("lightmode");
     lightmodeToggle.innerHTML = localStorage.getItem("light-svg");
+    // html.style.background = localStorage.getItem("background");
     }
 };
 
