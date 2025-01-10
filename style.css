@@ -2,6 +2,7 @@
   font-family: 'Poppins';
  }
  
+ 
  body {
    font-family: 'Poppins';
    background-color: hsl(246, 100%, 4%);
@@ -169,6 +170,10 @@
   border: none;
   transition: .5s;
  }
+
+ svg {
+  -webkit-transform: translate(0px,0px); /* Safari and Chrome */
+}
 
  .time-machine svg {
   color: white;

@@ -70,5 +70,3 @@ const showLightMode = () => {
 
 showLightMode();
 
-// OVERSCROLL COLOUR FIX
-
