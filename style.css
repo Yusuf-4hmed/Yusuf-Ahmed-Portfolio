@@ -149,6 +149,7 @@
   border-radius: 11%;
   border: none;
   transition: .5s;
+  padding: 1px 6px;
  }
 
  .light-mode-toggle svg {
@@ -169,6 +170,7 @@
   border-radius: 11%;
   border: none;
   transition: .5s;
+  padding: 1px 6px;
  }
 
 
