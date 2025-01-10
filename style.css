@@ -885,6 +885,10 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.box-method{
+  border: none;
+  display: flex;
+}
 @media (min-width: 475px) {
   
 }
@@ -1037,5 +1041,8 @@ footer {
 .blog h1{
   font-size: 30px !important;
   font-weight: bolder;
+}
+.box-method{
+  display: block;
 }
 }
