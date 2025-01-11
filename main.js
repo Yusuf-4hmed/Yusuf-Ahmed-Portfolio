@@ -20,7 +20,7 @@ function lightModeSwitch() {
         html.style.background = 'white';
     } else {
         lightmodeToggle.innerHTML = moonSvg;
-        html.style.background = 'hsl(246, 100%, 4%)';
+        html.style.background = ' hsl(246, 100%, 4%)';
     }; 
     // if (document.body.classList.contains('light')){
     //     html.style.background = 'white';
