@@ -18,15 +18,14 @@ function lightModeSwitch() {
     if (document.body.classList.contains('light')){
         lightmodeToggle.innerHTML = sunSvg;
         html.style.background = 'white';
+        html.style.transition = '.5s';
+        document.body.style.transition = '.5s';
     } else {
         lightmodeToggle.innerHTML = moonSvg;
         html.style.background = ' hsl(246, 100%, 4%)';
+        html.style.transition = '.5s';
+        document.body.style.transition = '.5s';
     }; 
-    // if (document.body.classList.contains('light')){
-    //     html.style.background = 'white';
-    // } else {
-    //     html.style.background = 'hsl(246, 100%, 4%)';
-    // };
     saveLightMode();
 }
 

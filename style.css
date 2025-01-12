@@ -2,15 +2,11 @@
   font-family: 'Poppins';
  }
  
- html{
-  transition: .5s;
- }
 
  body {
    font-family: 'Poppins';
    background-color: hsl(246, 100%, 4%);
    color: white;
-   transition: .5s;
  }
 
   body.light {
