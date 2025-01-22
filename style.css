@@ -787,6 +787,27 @@ footer {
     width: auto;
   }
 }
+/* BLOG HOME */
+
+.blog-container-home{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 0px;
+  width: 679px;
+  border: none;
+}
+
+.blog-post-home{
+  width: 250px;
+  height: 220px;
+  margin: 0px;
+}
+
+.blog-post-home:first-child{
+  margin-right: 30px;
+}
+
 
 /* BLOG */
 #blog {
