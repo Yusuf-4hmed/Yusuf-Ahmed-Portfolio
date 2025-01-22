@@ -530,7 +530,8 @@ $to-color: limegreen;
 }
 
 .projects-outer{
-  display: none;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .project-btn {
@@ -571,6 +572,12 @@ $to-color: limegreen;
   width: 17px;
 }
 
+.project-link.disabled{
+  opacity: 50%;
+}
+.project-link.disabled:hover{
+  cursor: default;
+}
 
 div {
   border: solid 1px rgba(255, 255, 255, 0.212);
