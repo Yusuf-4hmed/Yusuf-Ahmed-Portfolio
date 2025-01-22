@@ -15,7 +15,6 @@ Some things I am planning to add:
 - [x] Blog section
 - [ ] Time Travel Machine feature needs to be finished
 - [ ] Add a map to show my general location 
-- [ ] Easter Eggs?
 
 
 ### Built With
