@@ -69,9 +69,9 @@ const showLightMode = () => {
 
 showLightMode();
 
-// HOME PAGE BLOG POST
+// // HOME PAGE BLOG POST
 
-const homeBlogPost = document.getElementById("blog-post-home")
-const homeBlogPosth3 = document.querySelector("#blog-post-home h3")
+// const homeBlogPost = document.getElementById("blog-post-home")
+// const homeBlogPosth3 = document.querySelector("#blog-post-home h3")
 
-homeBlogPosth3.textContent = document.querySelector("#blog-container .blog-post ").textContent
+// homeBlogPosth3.textContent = document.querySelector("#blog-container .blog-post ").textContent
