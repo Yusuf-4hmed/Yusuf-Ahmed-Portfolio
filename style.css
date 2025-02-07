@@ -679,7 +679,7 @@ footer {
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 764px){
 
   div {
     border-style: none;
@@ -954,9 +954,13 @@ footer {
   display: flex;
 }
 
+/* PROJECTS */
 
+#projects-main {
+  margin-top: 73px;
+}
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 764px){
   .text{
     display: none;
   }
