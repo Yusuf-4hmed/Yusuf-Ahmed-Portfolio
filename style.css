@@ -952,7 +952,9 @@ footer {
 }
 
 /* BLOG POST PAGE */
-
+#blog {
+  margin-top: 70px;
+}
 
 .blog{
   margin-left: auto;
