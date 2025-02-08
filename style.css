@@ -105,11 +105,14 @@
   color: white;
   font-size: 14px;
   font-weight: 500;
-  transition: .3s;
  }
 
  .section-link:hover {
   opacity: .5;
+  transition: .3s;
+ }
+
+ .section-link svg {
   transition: .3s;
  }
 
