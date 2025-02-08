@@ -9,6 +9,10 @@
    color: white;
  }
 
+ html {
+  scroll-behavior: smooth;
+ }
+
   body.light {
    font-family: 'Poppins';
    background-color: white;
@@ -73,9 +77,7 @@
   }
  }
 
- html {
-  scroll-behavior: smooth;
- }
+/* section text */
 
  .section-text {
   display: inline;
@@ -85,7 +87,6 @@
   font-size: 12px;
   border-radius: 5px;
   color: white;
-  /* opacity: .7; */
  }
 
  .section-link {
@@ -836,6 +837,16 @@ footer {
     margin-bottom: 0px;
   }
 }
+
+
+/* PROJECTS */
+
+#projects-main {
+  margin-top: 73px;
+}
+
+/* BLOG */
+
 /* BLOG HOME */
 
 .blog-container-home{
@@ -978,11 +989,7 @@ footer {
   display: flex;
 }
 
-/* PROJECTS */
-
-#projects-main {
-  margin-top: 73px;
-}
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 764px){
   .text{
