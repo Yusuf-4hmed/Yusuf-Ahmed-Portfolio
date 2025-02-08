@@ -68,6 +68,9 @@
   .blog-title{
     border: none;
   }
+  .section-link {
+    color: black;
+  }
  }
 
  html {
@@ -83,6 +86,28 @@
   border-radius: 5px;
   color: white;
   /* opacity: .7; */
+ }
+
+ .section-link {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .3s;
+ }
+
+ .section-link:hover {
+  opacity: .5;
+  transition: .3s;
+ }
+
+ .section-link:hover svg {
+  transform: translateX(5px);
+  transition: .3s;
  }
  
  /* NAV  */
@@ -445,23 +470,7 @@ border: 1px 1px 1px 1px;
 }
 /* PROJECTS */
 
-.projects-grid-container {
-  
-  margin-left: auto;
-  margin-right: auto;
-  border-style: none;
 
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 300px 300px;
-  gap: 20px;
-  min-width: 680px;
-  padding: 0;
-}
-
-.projects-grid-container a {
-  text-decoration: none;
-}
 
 .project-title {
   font-size: 17px;
@@ -539,6 +548,7 @@ $to-color: limegreen;
 }
 
 #projects {
+  margin-top: 60px;
   max-width: 680px;
   margin-left: auto;
   margin-right: auto;
@@ -553,6 +563,11 @@ $to-color: limegreen;
   padding: 0px;
   border: none !important;
   margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.projects-outer {
+  margin-bottom: 10px !important;
 }
 
 .project-btn {
@@ -632,6 +647,7 @@ footer {
   width: 680px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
 }
 
 .estsite{
@@ -817,6 +833,7 @@ footer {
     margin-right: auto;
     border-style: solid;
     width: auto;
+    margin-bottom: 0px;
   }
 }
 /* BLOG HOME */
@@ -842,9 +859,14 @@ footer {
 
 
 /* BLOG */
-#blog {
-  margin-top: 73px;
+#blogs {
+  margin-top: 60px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 .blog-title{
   margin-left: auto;
@@ -861,6 +883,7 @@ footer {
 }
 
 .blog-container {
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
@@ -868,6 +891,7 @@ footer {
   overflow: hidden;
   border-top: none;
   border-bottom: none;
+  margin-bottom: 10px;
 }
 
 .blog-container a{
