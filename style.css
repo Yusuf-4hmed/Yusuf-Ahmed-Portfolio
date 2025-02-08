@@ -13,6 +13,10 @@
   scroll-behavior: smooth;
  }
 
+ a {
+  text-decoration: none;
+ }
+
   body.light {
    font-family: 'Poppins';
    background-color: white;
@@ -45,6 +49,9 @@
   };
   div{
     border: solid 1px rgba(0, 0, 0, 0.212);
+  }
+  .project-anchors {
+    border: none;
   }
   .dot{
     background-color: #51ff00;
@@ -1195,4 +1202,5 @@ footer {
 #projects {
   width: auto;
 }
+
 }
