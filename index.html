@@ -43,7 +43,9 @@
         <div class="me-container">
             <article class="me-headers">
                 <h1 id="me-header-h1" class="me-header-h1">Yusuf Ahmed</h1>
-                <span  id="header-text" class="text" style="margin: 0;">19 year old Software Engineer <br>from London, UK <img class="pin" width="19px" src="https://em-content.zobj.net/source/apple/391/round-pushpin_1f4cd.png" loading="lazy" alt="iOS 17.4" class="w-auto h-full"></span>
+                <span  id="header-text" class="text" style="margin: 0;">19 year old Software Engineer from London, UK <img class="pin" width="19px" src="https://em-content.zobj.net/source/apple/391/round-pushpin_1f4cd.png" loading="lazy" alt="iOS 17.4" class="w-auto h-full">
+                <br> Building cool stuff, seeing the world, and figuring things out as I go.
+                </span>
                 <span  class="phone-text" style="margin: 0;">Software Engineer <br>based in UK</span>
                 <a href="https://www.linkedin.com/in/yusuf-ahmed-773697239/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin size-5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
@@ -57,7 +59,12 @@
         </div>
            </section>
     <section id="experience">
-                <div class="experience-container">
+        <p class="section-text">Experience</p>
+                <div class="experience-buttons">
+                    <button class="work active" id="work-btn">Work</button>
+                    <button class="education" id="education-btn">Education</button>
+                </div>
+                <div class="experience-container" id="experience-container">
                     <ul class="job">
                         <li class="job-section">
                             <img class="job-img" src="https://thumbs.dreamstime.com/b/white-square-rough-note-paper-texture-light-background-text-white-square-rough-note-paper-texture-light-background-text-110738279.jpg" alt="blank-logo">
@@ -75,17 +82,62 @@
                     </ul>
                     <ul class="job-second">
                         <li class="job-section">
-                            <img class="job-img" src="https://thumbs.dreamstime.com/b/white-square-rough-note-paper-texture-light-background-text-white-square-rough-note-paper-texture-light-background-text-110738279.jpg" alt="blank-logo">
+                            <img class="job-img" src="/assets/dunelm.png" alt="blank-logo">
                             <div class="job-details">
-                                <time class="time-job"><span>November 2023</span><span> - </span><span>May 2024</span></time>
-                                <h2 class="name-job">Barak4</h2>
-                                <p class="title-job">Data Analyst</p>
+                                <time class="time-job"><span>October 2023</span><span> - </span><span>Present</span></time>
+                                <h2 class="name-job">Dunelm</h2>
+                                <p class="title-job">Retail Assistant</p>
                                 <ul class="job-duties">
-                                    <li>Shadowed a Business Intelligence Lead, gaining valuable insights into data analysis, reporting, and decision
-                                        making processes</li>
-                                    <li>Sourced, cleansed, organized, and analysed data to create a comprehensive dashboard</li>
-                                    <li>Learnt how to manage relationships with stakeholders, ensuring clear communication, aligning expectations, 
-                                        and addressing their needs throughout the project.</li>
+                                    <li>Managed and analysed stock data using in store databases, ensuring accurate inventory tracking.</li>
+                                    <li>Performed database queries to retrieve and process relevant information, ensuring efficient support for customers.</li>
+                                    <li>Strengthened communication skills by engaging with a multitude of people ranging from customers to delivery drivers in a clear and concise manner.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="education-container" id="education-container">
+                    <ul class="job" style="height: auto;">
+                        <li class="job-section">
+                            <img class="job-img" src="https://thumbs.dreamstime.com/b/white-square-rough-note-paper-texture-light-background-text-white-square-rough-note-paper-texture-light-background-text-110738279.jpg" alt="blank-logo">
+                            <div class="job-details" style="margin-bottom: 0px;">
+                                <time class="time-job"><span>Octobrt 2024</span><span> - </span><span> December 2024</span></time>
+                                <h2 class="name-job">FreeCodeCamp</h2>
+                                <p class="title-job">Independent Learner</p>
+                                <ul class="job-duties">
+                                    <li>Responsive Web Design: HTML, CSS + 5 Projects</li>
+                                    <li>JavaScript Algorithms and Data Structures: JavaScript + 5 Projects</li>
+                                </ul>
+                                <div style="display: flex; gap: 10px; border: none; padding: 0px;"><a href="https://freecodecamp.org/certification/yusuf32f23f/responsive-web-design" target="_blank"><button class="project-link">Web Design Certificate</button></a>
+                                <a href="https://freecodecamp.org/certification/yusuf32f23f/javascript-algorithms-and-data-structures-v8" target="_blank"><button class="project-link">JavaScript Certificate</button></a></div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="job" style="height: auto;">
+                        <li class="job-section">
+                            <img class="job-img" src="https://thumbs.dreamstime.com/b/white-square-rough-note-paper-texture-light-background-text-white-square-rough-note-paper-texture-light-background-text-110738279.jpg" alt="blank-logo">
+                            <div class="job-details" style="margin-bottom: 0px;">
+                                <time class="time-job"><span>September 2021</span><span> - </span><span> July 2023</span></time>
+                                <h2 class="name-job">Leyton Sixth Form College</h2>
+                                <p class="title-job">College Student (BTEC)</p>
+                                <ul class="job-duties">
+                                    <li>Relevant coursework: Web Development, Data Bases</li>
+                                    <li>BTEC Level 3 Information Technology: Grade P</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="job-second" style="height: 180px;">
+                        <li class="job-section">
+                            <img class="job-img" src="https://thumbs.dreamstime.com/b/white-square-rough-note-paper-texture-light-background-text-white-square-rough-note-paper-texture-light-background-text-110738279.jpg" >
+                            <div class="job-details">
+                                <time class="time-job"><span>September 2016</span><span> - </span><span>May 2021</span></time>
+                                <h2 class="name-job">Langdon Academy</h2>
+                                <p class="title-job">Secondary Student (GCSE)</p>
+                                <ul class="job-duties">
+                                    <li>Unfortunatley I did not get to do Computer Science for GCSE but heavily participated in it's classes from Year 7 - Year 9: Scratch, Python</li>
+                                    <li>8 GCSE's: Grades 7-4</li>
                                 </ul>
                             </div>
                         </li>

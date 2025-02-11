@@ -69,9 +69,22 @@ const showLightMode = () => {
 
 showLightMode();
 
-// // HOME PAGE BLOG POST
+// WORK & EDUCATION TOGGLE
 
-// const homeBlogPost = document.getElementById("blog-post-home")
-// const homeBlogPosth3 = document.querySelector("#blog-post-home h3")
+const workButton = document.getElementById("work-btn");
+const educationButton = document.getElementById("education-btn");
+const experienceContainer = document.getElementById("experience-container");
+const educationContainer = document.getElementById("education-container");
 
-// homeBlogPosth3.textContent = document.querySelector("#blog-container .blog-post ").textContent
+workButton.addEventListener("click", () => {
+    experienceContainer.style.display = "block"
+    educationContainer.style.display = "none";
+    workButton.classList.add("active");
+    educationButton.classList.remove("active");
+})
+educationButton.addEventListener("click", () => {
+    educationContainer.style.display = "block"
+    experienceContainer.style.display = "none";
+    educationButton.classList.add("active");
+    workButton.classList.remove("active");
+})
