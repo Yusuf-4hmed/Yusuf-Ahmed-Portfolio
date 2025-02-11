@@ -1251,14 +1251,14 @@ footer {
 @media only screen and (max-width: 645px){
   .me-container {
     display: flex;
-    flex-direction: column-reverse;
+
     margin-left: auto;
     margin-right: auto;
     cursor: default;
     z-index: 10;
     padding: 10px;
     max-width: 650px;
-    justify-content:center;
+    justify-content:space-between;
     gap: auto;
     border: solid 1px rgba(255, 255, 255, 0.212);
 
@@ -1269,11 +1269,79 @@ footer {
   padding: 0px;
   align-self:auto;
   }
+  .me-header-h1 {
+    font-size: 35px;
+  }
+  .text {
+    font-size: 12px;
+    max-width: 300px;
+  }
+  .me-pic-container {
+    object-fit: cover;
+    max-width: 145px;
+    height: 145px;
+    border-radius: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .me-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+    z-index: 10;
+    padding: 10px;
+    max-width: 650px;
+    justify-content:space-between;
+    gap: auto;
+    border: solid 1px rgba(255, 255, 255, 0.212);
+  }
+  .me-headers {
+  display: block;
+  padding: 0px;
+  align-self:auto;
+  }
+  .me-header-h1 {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 12px;
+    max-width: 230px;
+  }
+  .me-pic-container {
+    object-fit: cover;
+    max-width: 145px;
+    height: 145px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 418px) {
+
+  .text {
+    display: none;
+    font-size: 12px;
+    max-width: 230px;
+  }
+  .phone-text {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .me-header-h1 {
+    font-size: 23px;
+  }
+  .phone-text {
+    display: block;
+    font-size: 12px;
+  }
   .me-pic-container {
     object-fit: cover;
     max-width: 110px;
     height: 110px;
     border-radius: 10px;
-
   }
 }
