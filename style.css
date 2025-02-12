@@ -538,6 +538,10 @@ border: 1px 1px 1px 1px;
   font-size: 17px;
 }
 
+.project-title.experiment {
+  width: 180px;
+}
+
 .projects a{
   text-decoration: none
 }
@@ -633,6 +637,10 @@ $to-color: limegreen;
   margin-bottom: 10px !important;
 }
 
+.projects-outer.experiment {
+  height: 40px;
+}
+
 .project-btn {
   color: white;
   background-color: rgb(31, 41, 55);
@@ -651,7 +659,7 @@ $to-color: limegreen;
   height: 30px;
   width: auto;
   border-radius: 7px;
-  margin-top: 10px;
+  gap: 10px;
   border: none;
   font-size: 10px;
   font-weight: 700;
@@ -1091,12 +1099,17 @@ footer {
   width: auto;
   margin-left: auto;
   border: none;
+  
 }
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 764px){
   
-
+  .projects-outer.experiment {
+    height: auto;
+  }
   .experience-container {
     padding: 40px 20px 20px 20px;
   }
@@ -1186,7 +1199,7 @@ footer {
    .projects-grid-container{
      border: none;
    }
-   
+  
    .job-details {
      border: none;
    }
@@ -1197,6 +1210,7 @@ footer {
      border-left: solid 1px rgba(0, 0, 0, 0.212);
    }
 }
+
 .blog-title{
   width: auto;
 }
@@ -1283,6 +1297,10 @@ footer {
     border-radius: 10px;
 
   }
+  .project-anchors {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 @media only screen and (max-width: 500px){
