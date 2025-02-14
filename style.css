@@ -1119,10 +1119,10 @@ footer {
   }
 
   .experience-buttons :first-child {
-    margin-left: 7px;
+    margin-left: 5px;
   }
   .experience-buttons :last-child {
-    margin-right: 7px;
+    margin-right: 5px;
   }
 
   .nav-links {
