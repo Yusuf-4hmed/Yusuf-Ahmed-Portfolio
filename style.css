@@ -500,6 +500,7 @@
   flex-direction: column;
   padding-left: 80px;
   margin-top: -90px;
+  height: auto;
 }
 
 .time-job {
