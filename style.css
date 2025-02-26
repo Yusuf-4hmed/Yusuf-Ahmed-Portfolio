@@ -643,6 +643,10 @@ $to-color: limegreen;
   height: 40px;
 }
 
+.projects-outer.experiment,.project-description,.project-btn {
+  margin-top: 3px !important;
+}
+
 .project-btn {
   color: white;
   background-color: rgb(31, 41, 55);
