@@ -541,7 +541,7 @@ border: 1px 1px 1px 1px;
 }
 
 .project-title.experiment {
-  width: 180px;
+  min-width: 34%;
 }
 
 .projects a{
