@@ -625,6 +625,7 @@ $to-color: limegreen;
 
 .projects-outer-container {
   display: flex;
+  flex-direction: column;
   width: 680px;
   gap: 10px;
   margin-left: auto;
